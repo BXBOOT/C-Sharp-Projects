@@ -8,23 +8,22 @@ namespace StudentDailyReport
         static void Main()
         {
             Console.WriteLine("AOLCC Daily Report");
-            Console.ReadLine();
             Console.WriteLine("What is your name?");
-            Console.ReadLine();
-            Console.WriteLine("What course are you registered in ");
-            Console.ReadLine();
+            string StudentName = Console.ReadLine();
+            Console.WriteLine("Hello, " + StudentName + " what course are you registered in ");
+            string RegCourse = Console.ReadLine();
             Console.WriteLine("What page number are you on?");
-            Console.ReadLine();
-            Console.WriteLine("Do you nee help with anything speific? PLEASE ANSWER \"TRUE OR FALSE\"");
+            int PageNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Do you need help with anything speific? PLEASE ANSWER \"TRUE OR FALSE\"");
             Console.ReadLine();
             Console.WriteLine("Were there any positive experiences you would like to share? Please give specifics");
-            Console.ReadLine();
+            string FeedBack = Console.ReadLine();
             Console.WriteLine("Is there any other feedback you would like to provide? Pease be specific");
-            Console.ReadLine();
+            string Suggestons = Console.ReadLine();
             Console.WriteLine("How many hours did you study today?");
-            Console.ReadLine();
+            int HourStudied = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Thank you for participating in the Daily Report. An instructor will respond Shortly. Have a great day!");
-            Console.ReadLine();
+            string Thanks = Console.ReadLine();
         }
     }
 }
