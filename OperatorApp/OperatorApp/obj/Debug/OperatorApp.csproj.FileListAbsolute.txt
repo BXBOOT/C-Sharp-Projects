@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\OperatorApp\OperatorApp\obj\Debug\OperatorApp.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\OperatorApp\OperatorApp\obj\Debug\OperatorApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\OperatorApp\OperatorApp\obj\Debug\OperatorApp.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\OperatorApp\OperatorApp\bin\Debug\OperatorApp.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\OperatorApp\OperatorApp\bin\Debug\OperatorApp.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\OperatorApp\OperatorApp\bin\Debug\OperatorApp.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\OperatorApp\OperatorApp\obj\Debug\OperatorApp.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\OperatorApp\OperatorApp\obj\Debug\OperatorApp.pdb

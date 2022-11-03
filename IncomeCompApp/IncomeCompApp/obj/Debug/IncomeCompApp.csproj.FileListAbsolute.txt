@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\IncomeCompApp\IncomeCompApp\bin\Debug\IncomeCompApp.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\IncomeCompApp\IncomeCompApp\bin\Debug\IncomeCompApp.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\IncomeCompApp\IncomeCompApp\bin\Debug\IncomeCompApp.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\IncomeCompApp\IncomeCompApp\obj\Debug\IncomeCompApp.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\IncomeCompApp\IncomeCompApp\obj\Debug\IncomeCompApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\IncomeCompApp\IncomeCompApp\obj\Debug\IncomeCompApp.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\IncomeCompApp\IncomeCompApp\obj\Debug\IncomeCompApp.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\IncomeCompApp\IncomeCompApp\obj\Debug\IncomeCompApp.pdb
