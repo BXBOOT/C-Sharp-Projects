@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PackageQuote\PackageQuote\bin\Debug\PackageQuote.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PackageQuote\PackageQuote\bin\Debug\PackageQuote.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PackageQuote\PackageQuote\bin\Debug\PackageQuote.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PackageQuote\PackageQuote\obj\Debug\PackageQuote.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PackageQuote\PackageQuote\obj\Debug\PackageQuote.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PackageQuote\PackageQuote\obj\Debug\PackageQuote.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PackageQuote\PackageQuote\obj\Debug\PackageQuote.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PackageQuote\PackageQuote\obj\Debug\PackageQuote.pdb
