@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StringAssignApp\StringAssignApp\obj\Debug\StringAssignApp.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StringAssignApp\StringAssignApp\obj\Debug\StringAssignApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StringAssignApp\StringAssignApp\obj\Debug\StringAssignApp.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StringAssignApp\StringAssignApp\bin\Debug\StringAssignApp.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StringAssignApp\StringAssignApp\bin\Debug\StringAssignApp.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StringAssignApp\StringAssignApp\bin\Debug\StringAssignApp.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StringAssignApp\StringAssignApp\obj\Debug\StringAssignApp.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StringAssignApp\StringAssignApp\obj\Debug\StringAssignApp.pdb
