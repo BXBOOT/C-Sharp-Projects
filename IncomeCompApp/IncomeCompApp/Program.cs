@@ -19,8 +19,6 @@ namespace IncomeCompApp
             Num2 = Convert.ToInt32(Console.ReadLine());
             int AnnualPay1;
             AnnualPay1 = (Num1 * Num2)*50;
-
-
             int Num3, Num4;
             Console.WriteLine("Please enter the person 2 hourly rate");
             Num3 = Convert.ToInt32(Console.ReadLine());
