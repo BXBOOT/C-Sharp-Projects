@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConsoleApp6Part\ConsoleApp6Part\bin\Debug\ConsoleApp6Part.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConsoleApp6Part\ConsoleApp6Part\bin\Debug\ConsoleApp6Part.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConsoleApp6Part\ConsoleApp6Part\bin\Debug\ConsoleApp6Part.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConsoleApp6Part\ConsoleApp6Part\obj\Debug\ConsoleApp6Part.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConsoleApp6Part\ConsoleApp6Part\obj\Debug\ConsoleApp6Part.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConsoleApp6Part\ConsoleApp6Part\obj\Debug\ConsoleApp6Part.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConsoleApp6Part\ConsoleApp6Part\obj\Debug\ConsoleApp6Part.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConsoleApp6Part\ConsoleApp6Part\obj\Debug\ConsoleApp6Part.pdb
