@@ -17,77 +17,122 @@ namespace ConsoleApp6Part
             //Console App part 1 of 6
 
             List<string> menu1 = new List<string>() { "bacon", "eggs", "toast" }; //creates a list string
-            Console.WriteLine("Menu starting items"); //prints to console the original menu
-            foreach (string value in menu1)//iterates through the array
+            foreach (string food in menu1) //foreach loop to print the list for user to see
             {
-                Console.WriteLine(value);//prints to console
+                Console.WriteLine(food);//new created string food prints to the cnsole
+            }
+            List<string> adjective = new List<string>(); //create new string for the user input to be added
+
+                Console.WriteLine("\n");//new line for a bit of space between to make it easier to read.
+            {
+                Console.WriteLine("Add a one word description of these items");//asking for user input which is added to the new string
+                string descrip = Console.ReadLine();
+                Console.WriteLine("\n");//spacer
+                adjective.Add(descrip);//add the user input to the new list string
             }
 
-            List<string> ItemList = new List<string>(); //empty list string
-            //Ths satisfies the Console App assignment part 3 showing that while the empty lst is less than 3 items, add another item.
-            for (int i = 0; i < 3; i++) // Continue For Loop until i is < the needed amount. will loop 3 time with condition set at < 3.
+            menu1.InsertRange(1, adjective);//*****************************************************************************//
+            menu1.InsertRange(3, adjective);//this adds the user input to the end of each index. not pretty but it works **
+            menu1.InsertRange(5, adjective);//*****************************************************************************//
+
+            foreach (string added in menu1)//another foreach loop to print the added description of the items.
             {
-                Console.WriteLine($"{i + 1}: Add 3 more items to the menu"); // Asks for user input into array.
-                string ListInput = Console.ReadLine(); // User inputs value into field.
-                ItemList.Add(ListInput); //adds the user input string to the item list
+                Console.WriteLine(added);
             }
+            Console.ReadLine();//we can now see the result of tsaty aafter each original item.
 
             //Console App part 2 of 6
-            //This is an infnite loop of continuously printing system info.... 
-            //there is no break point. the original thought was that while menu was printed, it would just add the items to the list
-            //and then addRange the user input after the original list printed.
-            //while (true)
-            //{
-            //    Console.WriteLine(menu1);
-            //}
-            //Console.ReadLine();
 
-            Console.WriteLine("Full menu with added items");//prints to conaole with the new added items from user input
-            menu1.AddRange(ItemList);//takes menu1 list and adds the variable itemlist to the end of the list
-            foreach (string value in menu1) //loop through the string list menu 1 to add the to the list
+            //An infinte loop on purpose would exist in a game for example
+            int movement = 0;//sets the motion to 0 starting point
+            Console.WriteLine("This is an example of an infinte loop if you remove the break operator. This stops at 10. \n if you remove break it will continue forever");
+            while (true)//the start of a while loop
             {
-                Console.WriteLine(value);//Priints to console the new value of the amended menu list
+                if (movement == 10)//*********************************************
+                {                  //if you remove this break point perator the **
+                                   //counter will just keep running to infinity **
+                    break;         //*******************************************//
+                }
+                Console.WriteLine(movement);
+                movement++; //increment the movement variable by 1 each time it iterates through the while loop.
+                
+            }
+            Console.WriteLine("\n");
+            //Console App part 3 of 6
+
+            int num1 = 25;
+            int num2 = 31;
+            Console.WriteLine(num1);
+            Console.WriteLine(num2);
+            Console.WriteLine("If num1 is less than num2");
+
+            if (num1 < num2)
+            {
+                Console.WriteLine("No need to continue");
+            }
+            else
+            {
+                Console.WriteLine("we must re-evaluate the understanding of operators");
+            }
+            Console.ReadLine();
+
+            int answer = num1 - num2;
+            Console.WriteLine(answer);
+            if (answer <= 1)
+            {
+                Console.WriteLine("Math is a part of programming");
             }
             Console.ReadLine();
 
             //Console App part 4 of 6
 
-            List<string> OneofKind = new List<string>() { "The", "quick", "brown", "fox", "is", "dizzy" }; // a string list of unique words
-
-            Console.WriteLine("Select a letter of the alphabet and see if it exists in the hidden sentence"); // getting user input
-            string Letter = Console.ReadLine();//store user inut in variable string named Letter
-
-            int index = OneofKind.FindIndex(p => p.Contains(Letter)); //iterate through the list to find user input first appearance
-            Console.WriteLine("That letter exists in the sentence at index: " + index); //display index on console
-            foreach (string value in OneofKind)
+            List<string> oneOfaKind = new List<string> { "Mike", "Ben", "Serena", "Dave", "Eggbert", "Frank", "Chris" };//create the string list
+            foreach (string value in oneOfaKind)
             {
-                Console.WriteLine(value);//Writes the sentence afterthe user input
+                Console.WriteLine(value);//prints list to console so user can select name
+            }
+            Console.WriteLine("enter your name to see where you are on the list.");
+            string userinp = Console.ReadLine(); //creates a string variable stored as userin
+
+            if (!oneOfaKind.Contains(userinp))//determines if user input is not on the list
+            {
+                Console.WriteLine("You are not on the list");//if user inut it not on the list
+            }
+            else//using else to netst a while loop for whe user input is true
+            {
+
+                while (true)
+                {
+                    int position = oneOfaKind.FindIndex(p => p.Contains(userinp)); //finds the index of the user input
+                    Console.WriteLine("You are  " + position + "  in line for the roller coaster"); //prints user input to console with position of their name
+                    break;//if we do not use break in the while Loop this will be an infinite loop printing he same above line over and over again
+                }
             }
             Console.ReadLine();
-
+            Console.WriteLine("\n");
 
             //Console App part 5 of 6
             //This code is very easily broken by changing one small element to show a false positive.
             //There is probably a better way to write it!!!!!!
 
             List<string> moreThanOne = new List<string> {  "A", "B", "C", "D", "E", "F", "C" };//create the string list
-
             foreach (string value in moreThanOne)
             {
                 Console.WriteLine(value);
             }
-
-            for (int i = 0; i < moreThanOne.Count()-1; i++)//for loop setting parameters to iterate through the list
-
+            Console.WriteLine("Can you spot any duplicates in this list of letters? Enter the duplicate if you see it.");
+            string userin = Console.ReadLine();
+            string upuserin = userin.ToUpper();//converts user input to upper case letters
                 if (moreThanOne.Count != moreThanOne.Distinct().Count())//if statement to determine if the list is distinct
                 {
-                    Console.WriteLine("There are duplicates in this list");//prints if it finds a duplicate
+                int position = moreThanOne.FindIndex(p => p.Contains(upuserin));
+                Console.WriteLine("There are duplicates in this list: " + position);//prints if it finds a duplicate and shows the first appearance of the duplicate
                 }
                 else
                 {
                     Console.WriteLine("no duplicates exist in this list");//prints if finds no duplicate. I do not kow why these statements print 5 times
                 }
-            Console.ReadLine();
+            Console.WriteLine("\n");
 
             //ConsoleApp part 6 of 6
 
@@ -96,7 +141,7 @@ namespace ConsoleApp6Part
                 foreach (string value in finalPart)//foreach loop to print the vaue of the list on the console.
             {
                 if (finalPart.IndexOf(value) != finalPart.LastIndexOf(value))//This compares the index of each item and if it appears more tha once it shows as a duplicte.
-                    Console.WriteLine(value + " -this item is a duplicate");//prints only the duplicated value.
+                    Console.WriteLine(value + "-this item is a duplicate");//prints only the duplicated value.
                 else
                 {
                     Console.WriteLine(value + "-This is not a duplicate");//Prints as many times as the loop iterates throough the lst f there are no duplicates.
