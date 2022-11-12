@@ -58,31 +58,25 @@ namespace ConsoleApp6Part
                 
             }
             Console.WriteLine("\n");
+
             //Console App part 3 of 6
 
-            int num1 = 25;
-            int num2 = 31;
-            Console.WriteLine(num1);
-            Console.WriteLine(num2);
-            Console.WriteLine("If num1 is less than num2");
+            for (int i = 0; i < 5; i++)//creates parameters for the for loop where operator is less than
+            {
+                Console.WriteLine(i);//i will print as long as i is less than(<) the number 5 in the for loop.
+            }                       //If you chnge the value of 5 i will print to that and inrement by 1 each time it loops
+            Console.ReadLine();// prints line to the console.
+            Console.WriteLine("\n");
 
-            if (num1 < num2)
+            int j = 0; //Set the value of i
+            do //start of the do loop, do this.....
             {
-                Console.WriteLine("No need to continue");
+                Console.WriteLine(j);//do this print i to console
+                j++;//increment by 1 each loop
             }
-            else
-            {
-                Console.WriteLine("we must re-evaluate the understanding of operators");
-            }
+            while (j <= 5);//do this while i is less than < or = to 5
             Console.ReadLine();
-
-            int answer = num1 - num2;
-            Console.WriteLine(answer);
-            if (answer <= 1)
-            {
-                Console.WriteLine("Math is a part of programming");
-            }
-            Console.ReadLine();
+            Console.WriteLine("\n");
 
             //Console App part 4 of 6
 
