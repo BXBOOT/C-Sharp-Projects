@@ -16,30 +16,21 @@ namespace ConsoleApp6Part
         {
             //Console App part 1 of 6
 
-            List<string> menu1 = new List<string>() { "bacon", "eggs", "toast" }; //creates a list string
-            foreach (string food in menu1) //foreach loop to print the list for user to see
+            string[] menu = new string[] { "Bacon", "Eggs", "Toast" };//set an array of strings
+            foreach (string item in menu)
             {
-                Console.WriteLine(food);//new created string food prints to the cnsole
+                Console.WriteLine(item);//print array to console
             }
-            List<string> adjective = new List<string>(); //create new string for the user input to be added
+            Console.ReadLine();
+            Console.WriteLine("Add a word that describes these menu items");//get user input
+            string userword = Console.ReadLine();
 
-                Console.WriteLine("\n");//new line for a bit of space between to make it easier to read.
+            for (int i = 0; i < menu.Length; i++)//set parameter for for the for loop
             {
-                Console.WriteLine("Add a one word description of these items");//asking for user input which is added to the new string
-                string descrip = Console.ReadLine();
-                Console.WriteLine("\n");//spacer
-                adjective.Add(descrip);//add the user input to the new list string
+                Console.WriteLine(menu[i] + " " + userword); //re-write to console the menu, iterate through the for loop length and add the user input.
             }
-
-            menu1.InsertRange(1, adjective);//*****************************************************************************//
-            menu1.InsertRange(3, adjective);//this adds the user input to the end of each index. not pretty but it works **
-            menu1.InsertRange(5, adjective);//*****************************************************************************//
-
-            foreach (string added in menu1)//another foreach loop to print the added description of the items.
-            {
-                Console.WriteLine(added);
-            }
-            Console.ReadLine();//we can now see the result of tsaty aafter each original item.
+            Console.ReadLine();//prints new list to the console.
+            Console.WriteLine("\n");
 
             //Console App part 2 of 6
 
@@ -106,28 +97,32 @@ namespace ConsoleApp6Part
             Console.WriteLine("\n");
 
             //Console App part 5 of 6
-            //This code is very easily broken by changing one small element to show a false positive.
             //There is probably a better way to write it!!!!!!
 
-            List<string> moreThanOne = new List<string> {  "A", "B", "C", "D", "E", "F", "C" };//create the string list
-            foreach (string value in moreThanOne)
+            List<string> moreThanOne = new List<string> { "A", "B", "C", "D", "E", "F", "C" };//set up a string list
+            foreach (string letter in moreThanOne)//set a string variable to print the list to console
             {
-                Console.WriteLine(value);
+                Console.WriteLine(letter);
             }
-            Console.WriteLine("Can you spot any duplicates in this list of letters? Enter the duplicate if you see it.");
-            string userin = Console.ReadLine();
-            string upuserin = userin.ToUpper();//converts user input to upper case letters
-                if (moreThanOne.Count != moreThanOne.Distinct().Count())//if statement to determine if the list is distinct
-                {
-                int position = moreThanOne.FindIndex(p => p.Contains(upuserin));
-                Console.WriteLine("There are duplicates in this list: " + position);//prints if it finds a duplicate and shows the first appearance of the duplicate
-                }
-                else
-                {
-                    Console.WriteLine("no duplicates exist in this list");//prints if finds no duplicate. I do not kow why these statements print 5 times
-                }
-            Console.WriteLine("\n");
+            Console.WriteLine("Type any duplicates you see here");// get user input
 
+            foreach (string letter in moreThanOne)
+            {
+                int count = 0;//create a counter where count is 0
+                int index = 0;//set index starting point at zero 
+                foreach (string item in moreThanOne)
+                {
+                    if (letter == item)//if user input is contaned in the original string results in true start the loop
+                    {
+                        count++;
+                        if (count > 1)//if the count is larger than the 1 item print to console with the index
+                            Console.WriteLine($"Index pos of repeated element {letter} at index " + index); //prints the index position of the duplicate letters when entered  
+                    }
+                    index++;//increment through the index adding 1 each time                   
+                }
+                Console.ReadLine();
+                Console.WriteLine("\n");
+            }
             //ConsoleApp part 6 of 6
 
             List<string> finalPart = new List<string> { "A", "B", "C", "D", "E", "F", "C" };//create the list
