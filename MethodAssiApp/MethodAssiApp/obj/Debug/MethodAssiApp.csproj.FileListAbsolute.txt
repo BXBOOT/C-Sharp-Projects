@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssiApp\MethodAssiApp\bin\Debug\MethodAssiApp.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssiApp\MethodAssiApp\bin\Debug\MethodAssiApp.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssiApp\MethodAssiApp\bin\Debug\MethodAssiApp.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssiApp\MethodAssiApp\obj\Debug\MethodAssiApp.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssiApp\MethodAssiApp\obj\Debug\MethodAssiApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssiApp\MethodAssiApp\obj\Debug\MethodAssiApp.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssiApp\MethodAssiApp\obj\Debug\MethodAssiApp.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssiApp\MethodAssiApp\obj\Debug\MethodAssiApp.pdb

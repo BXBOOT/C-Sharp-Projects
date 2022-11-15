@@ -99,45 +99,44 @@ namespace ConsoleApp6Part
             //Console App part 5 of 6
             //There is probably a better way to write it!!!!!!
 
-            List<string> moreThanOne = new List<string> { "A", "B", "C", "D", "E", "F", "C" };//set up a string list
-            foreach (string letter in moreThanOne)//set a string variable to print the list to console
+            List<string> moreThanOne = new List<string> { "A", "B", "C", "D", "E", "F", "C" };
+            for (int i = 0; i < moreThanOne.Count; i++)
             {
-                Console.WriteLine(letter);
+                Console.WriteLine(moreThanOne[i]);
             }
-            Console.WriteLine("Type any duplicates you see here");// get user input
+            Console.WriteLine("Enter Duplicate");
+            string letter = Console.ReadLine();
+            string uppletter = letter.ToUpper();
+            int count = 0;
+            int index = 0;
 
-            foreach (string letter in moreThanOne)
+            foreach (string item in moreThanOne)
             {
-                int count = 0;//create a counter where count is 0
-                int index = 0;//set index starting point at zero 
-                foreach (string item in moreThanOne)
-                {
-                    if (letter == item)//if user input is contaned in the original string results in true start the loop
-                    {
-                        count++;
-                        if (count > 1)//if the count is larger than the 1 item print to console with the index
-                            Console.WriteLine($"Index pos of repeated element {letter} at index " + index); //prints the index position of the duplicate letters when entered  
-                    }
-                    index++;//increment through the index adding 1 each time                   
-                }
-                Console.ReadLine();
-                Console.WriteLine("\n");
+                if (item == uppletter)
+                    count++;
+                index++;
+                if (count > 1)
+                    Console.WriteLine($"the duplicate is at index position " + index);
+            }
+
+            Console.ReadLine();
+            Console.WriteLine("\n");
             }
             //ConsoleApp part 6 of 6
 
-            List<string> finalPart = new List<string> { "A", "B", "C", "D", "E", "F", "C" };//create the list
+            //List<string> finalPart = new List<string> { "A", "B", "C", "D", "E", "F", "C" };//create the list
             
-                foreach (string value in finalPart)//foreach loop to print the vaue of the list on the console.
-            {
-                if (finalPart.IndexOf(value) != finalPart.LastIndexOf(value))//This compares the index of each item and if it appears more tha once it shows as a duplicte.
-                    Console.WriteLine(value + "-this item is a duplicate");//prints only the duplicated value.
-                else
-                {
-                    Console.WriteLine(value + "-This is not a duplicate");//Prints as many times as the loop iterates throough the lst f there are no duplicates.
-                }
-            }
-            Console.ReadLine();
-        }
+            //    foreach (string value in finalPart)//foreach loop to print the vaue of the list on the console.
+            //{
+            //    if (finalPart.IndexOf(value) != finalPart.LastIndexOf(value))//This compares the index of each item and if it appears more tha once it shows as a duplicte.
+            //        Console.WriteLine(value + "-this item is a duplicate");//prints only the duplicated value.
+            //    else
+            //    {
+            //        Console.WriteLine(value + "-This is not a duplicate");//Prints as many times as the loop iterates throough the lst f there are no duplicates.
+            //    }
+            //}
+            //Console.ReadLine();
+        
     }
 }
 
