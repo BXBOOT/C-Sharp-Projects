@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A033BA7-8C85-4813-8907-E10EEC778C54}</ProjectGuid>
+    <ProjectGuid>{B9C2DB9D-B6E9-4573-BA5B-4C4FF73FDE18}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>MethodsApp</RootNamespace>
     <AssemblyName>MethodsApp</AssemblyName>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Called.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Threes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

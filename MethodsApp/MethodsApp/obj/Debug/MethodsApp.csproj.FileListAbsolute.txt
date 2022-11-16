@@ -1,8 +1,8 @@
-C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\bin\Debug\MethodsApp.exe.config
-C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\bin\Debug\MethodsApp.exe
-C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\bin\Debug\MethodsApp.pdb
 C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\obj\Debug\MethodsApp.csproj.AssemblyReference.cache
 C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\obj\Debug\MethodsApp.csproj.SuggestedBindingRedirects.cache
 C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\obj\Debug\MethodsApp.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\bin\Debug\MethodsApp.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\bin\Debug\MethodsApp.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\bin\Debug\MethodsApp.pdb
 C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\obj\Debug\MethodsApp.exe
 C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodsApp\MethodsApp\obj\Debug\MethodsApp.pdb
