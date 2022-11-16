@@ -16,13 +16,13 @@ namespace MethodOverLoad
 
         public decimal Add(decimal a, decimal b)
         {
-
             return a / b;
         }
 
         public string Add(string a, string b)
         {
-            return a + b;
+            return "" + "";
         }
     }
 }
+
