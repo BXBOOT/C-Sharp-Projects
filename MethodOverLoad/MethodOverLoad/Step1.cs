@@ -14,14 +14,15 @@ namespace MethodOverLoad
             return a + b;
         }
 
-        public double Add(double a, double b)
+        public decimal Add(decimal a, decimal b)
         {
+
             return a / b;
         }
 
         public string Add(string a, string b)
         {
-            return "Is this " + " going to work?";
+            return a + b;
         }
     }
 }
