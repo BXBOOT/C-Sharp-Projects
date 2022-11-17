@@ -16,10 +16,9 @@ namespace MethodOverLoad
 
             Console.WriteLine("The answer is, " + step.Add(5, 3));// return an int result
 
-            Console.WriteLine("The answer is, " + step.Add(Convert.ToInt32("20"), Convert.ToInt32("22")));// a string result. written in the method and filled with empty "" at runtime
+            Console.WriteLine("The answer is, " + step.Add("b", "22"));// conversion done in method with try/catch theat prints -1 and message
 
-            int answer = (int)step.Add(958.2758m, 223.9m);//this is called an implicit conversion. I found it online and tried it. 
-            Console.WriteLine("The answer is, " + answer);
+            Console.WriteLine("The answer when converting a decimal to int is, " + step.Add(27.5m, 7.5m));//answer will be whole number because of int conversion
 
             Console.ReadLine();
         }

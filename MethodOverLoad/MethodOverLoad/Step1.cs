@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,14 +15,24 @@ namespace MethodOverLoad
             return a + b;
         }
 
-        public decimal Add(decimal a, decimal b)
+        public int Add(decimal a, decimal b)
         {
-            return a / b;
+            return Convert.ToInt32(a / b);
         }
 
-        public string Add(string a, string b)
+        public int Add(string a, string b)
         {
-            return "" + "";
+            try
+            {
+                return Convert.ToInt32(a + b);
+            }
+            catch
+            {
+                Console.WriteLine("the opertion did not complete. a number must be used");
+                return -1;
+
+            }
+            
         }
     }
 }
