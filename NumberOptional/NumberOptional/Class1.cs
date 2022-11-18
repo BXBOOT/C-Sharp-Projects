@@ -9,11 +9,12 @@ namespace NumberOptional
 {
     public class Class1
     {
-        public int Maths(int a, int b)
+        public int Maths(int a, int b = 0)
         {
             {
-                return a +  b;
+                return a + b;
             }
+
         }
 
     }
