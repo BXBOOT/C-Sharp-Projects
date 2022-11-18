@@ -19,7 +19,7 @@ namespace MethodOverLoad
 
             Console.WriteLine("The answer is, " + step.Add(5, value));// return an int result
 
-            Console.WriteLine("The answer is, " + step.Add("b", "22"));// conversion done in method with try/catch theat prints -1 and message
+            Console.WriteLine("The answer is, " + step.Add("5", "5"));// conversion done in method with try/catch theat prints -1 and message
 
             Console.WriteLine("The answer when converting a decimal to int is, " + step.Add(27.5m, value));//answer will be whole number because of int conversion
 

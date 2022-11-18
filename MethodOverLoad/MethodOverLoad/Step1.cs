@@ -24,12 +24,12 @@ namespace MethodOverLoad
         {
             try
             {
-                return Convert.ToInt32(a + b);
+                return (Convert.ToInt32(a)) + (Convert.ToInt32(b));
             }
             catch
             {
                 Console.WriteLine("the opertion did not complete. a number must be used");
-                return -1;
+                return -0;
 
             }
             

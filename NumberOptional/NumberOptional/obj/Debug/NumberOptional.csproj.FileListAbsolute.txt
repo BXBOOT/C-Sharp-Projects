@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\NumberOptional\NumberOptional\bin\Debug\NumberOptional.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\NumberOptional\NumberOptional\bin\Debug\NumberOptional.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\NumberOptional\NumberOptional\bin\Debug\NumberOptional.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\NumberOptional\NumberOptional\obj\Debug\NumberOptional.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\NumberOptional\NumberOptional\obj\Debug\NumberOptional.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\NumberOptional\NumberOptional\obj\Debug\NumberOptional.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\NumberOptional\NumberOptional\obj\Debug\NumberOptional.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\NumberOptional\NumberOptional\obj\Debug\NumberOptional.pdb
