@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\AbstractPerson\AbstractPerson\bin\Debug\AbstractPerson.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\AbstractPerson\AbstractPerson\bin\Debug\AbstractPerson.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\AbstractPerson\AbstractPerson\bin\Debug\AbstractPerson.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\AbstractPerson\AbstractPerson\obj\Debug\AbstractPerson.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\AbstractPerson\AbstractPerson\obj\Debug\AbstractPerson.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\AbstractPerson\AbstractPerson\obj\Debug\AbstractPerson.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\AbstractPerson\AbstractPerson\obj\Debug\AbstractPerson.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\AbstractPerson\AbstractPerson\obj\Debug\AbstractPerson.pdb
