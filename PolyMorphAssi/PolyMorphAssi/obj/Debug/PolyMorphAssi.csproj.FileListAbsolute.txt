@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PolyMorphAssi\PolyMorphAssi\obj\Debug\PolyMorphAssi.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PolyMorphAssi\PolyMorphAssi\obj\Debug\PolyMorphAssi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PolyMorphAssi\PolyMorphAssi\obj\Debug\PolyMorphAssi.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PolyMorphAssi\PolyMorphAssi\bin\Debug\PolyMorphAssi.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PolyMorphAssi\PolyMorphAssi\bin\Debug\PolyMorphAssi.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PolyMorphAssi\PolyMorphAssi\bin\Debug\PolyMorphAssi.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PolyMorphAssi\PolyMorphAssi\obj\Debug\PolyMorphAssi.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\PolyMorphAssi\PolyMorphAssi\obj\Debug\PolyMorphAssi.pdb
