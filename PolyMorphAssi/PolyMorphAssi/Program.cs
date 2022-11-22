@@ -15,11 +15,24 @@ namespace PolyMorphAssi
                 employee.FirstName = "Sample";//use get ad set for parameters
                 employee.LastName = "Student";
                 employee.SayName();//call the method
+                employee.Quit();
                 Console.ReadLine();//print to console
 
-                Employee quittable = new Employee(); //The class employee instantiates the method quit. Iquittable cannot
-                quittable.Quit();//Calls the mehod quit
-                Console.ReadLine();//Readsline on Consoe.
+                
+                Employee boss = new Boss();// create new object boss
+                boss.FirstName = "Bob";
+                boss.LastName = "Smith";
+                boss.SayName();
+                boss.Quit();
+
+                Console.WriteLine("\n");
+
+                Employee receptionist = new Receptionist();//Create a new object of receptionist inherits what employee inherts from person
+                receptionist.FirstName = "Brenda";
+                receptionist.LastName = "Smithers";
+                receptionist.SayName();
+                receptionist.Quit();
+                Console.ReadLine();//Readsline on Console.
             }
         }
     }
