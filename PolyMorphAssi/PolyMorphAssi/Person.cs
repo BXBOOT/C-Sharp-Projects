@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -17,39 +18,36 @@ namespace PolyMorphAssi
 
     class Employee : Person, IQuittable //new class employee inherits from abstract person class. Interface allows for more optins than just 1 inheritance
     {
-        public void Quit()
+        public override void SayName()// the override method from the abstract class so it can be called by the employee class
+        {
+            Console.WriteLine("Name : " + FirstName + " " + LastName);//what the method should do when called in main program
+        }
+
+        public virtual void Quit()//the interface must be marked virtual so the inheriting class can use the override to produce a different
+                                  //console print out. virtual void only has to be done once, following objects will inherit the rules
         {
             Console.WriteLine("can only quit when you have learnt it all");
         }
 
-        public override void SayName()// the override method from the abstract class so it can be called by the employee class
-        {
-            Console.WriteLine("Name : " + FirstName + " " + LastName);//what the method should do when called in main program
-        }
+ 
     }
     class Boss : Employee
     {
-        public new void Quit()
+        public override void Quit()//this override of the quit method 'inherited' from employee will have a different rint to console.
         {
+            Console.WriteLine("Boss is not allowed to quit");
             
         }
-        public override void SayName()// the override method from the abstract class so it can be called by the employee class
-        {
-            Console.WriteLine("Name : " + FirstName + " " + LastName);//what the method should do when called in main program
-        }
-
     }
 
     class Receptionist : Employee
     {
-        public new void Quit()
+        public override void Quit()//this override of the quit method 'inherited' from employee will have a different rint to console.
         {
+            Console.WriteLine("Susie can retire but she never quits");
+            //base.SayName(); if this remains in, it will print the inherited console.writeline from person
+        }
 
-        }
-        public override void SayName()// the override method from the abstract class so it can be called by the employee class
-        {
-            Console.WriteLine("Name : " + FirstName + " " + LastName);//what the method should do when called in main program
-        }
     }
 
 }
