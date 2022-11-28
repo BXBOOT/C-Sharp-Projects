@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StructAssi\StructAssi\bin\Debug\StructAssi.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StructAssi\StructAssi\bin\Debug\StructAssi.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StructAssi\StructAssi\bin\Debug\StructAssi.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StructAssi\StructAssi\obj\Debug\StructAssi.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StructAssi\StructAssi\obj\Debug\StructAssi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StructAssi\StructAssi\obj\Debug\StructAssi.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StructAssi\StructAssi\obj\Debug\StructAssi.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\StructAssi\StructAssi\obj\Debug\StructAssi.pdb

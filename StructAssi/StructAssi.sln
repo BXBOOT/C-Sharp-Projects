@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructAssi", "StructAssi\StructAssi.csproj", "{09D4BFAB-CFF7-4830-BBF0-E8DCEC92D64E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09D4BFAB-CFF7-4830-BBF0-E8DCEC92D64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D4BFAB-CFF7-4830-BBF0-E8DCEC92D64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D4BFAB-CFF7-4830-BBF0-E8DCEC92D64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D4BFAB-CFF7-4830-BBF0-E8DCEC92D64E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90CBE416-D98A-4D7C-A481-ED3FD7BBB991}
+	EndGlobalSection
+EndGlobal
