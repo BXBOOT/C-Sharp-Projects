@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\EnumsAssi\EnumsAssi\bin\Debug\EnumsAssi.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\EnumsAssi\EnumsAssi\bin\Debug\EnumsAssi.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\EnumsAssi\EnumsAssi\bin\Debug\EnumsAssi.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\EnumsAssi\EnumsAssi\obj\Debug\EnumsAssi.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\EnumsAssi\EnumsAssi\obj\Debug\EnumsAssi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\EnumsAssi\EnumsAssi\obj\Debug\EnumsAssi.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\EnumsAssi\EnumsAssi\obj\Debug\EnumsAssi.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\EnumsAssi\EnumsAssi\obj\Debug\EnumsAssi.pdb
