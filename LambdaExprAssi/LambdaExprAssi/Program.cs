@@ -22,18 +22,29 @@ namespace LambdaExprAssi
             empl.Add(new Employee("Rudy", "Muggs", 009));
             empl.Add(new Employee("Bart", "Simpson", 010));
 
+            List<Employee> employee1 = new List<Employee>();
+            foreach (var i in empl)
 
-
-            if (!empl.Exists(e => (e.FirstName == "Joe")))
             {
-                Console.WriteLine("Yes, Joe Exists");
+                if (i.FirstName == "Joe")
+                {
+                    empl.AddRange(employee1);
+                    Console.WriteLine(employee1);
+                }
+                Console.ReadLine();
             }
+
+            //list
+            List<Employee> employees2 = new List<Employee>(); 
+            employees2.Exists(e => (e.FirstName == "Joe"));
+            Console.WriteLine(employees2);
             Console.ReadLine();
 
-            if (!empl.All(e => (e.Id > 005)))
-            {
-                Console.WriteLine("We have people with higher employee Id");
-            }
+
+            ////list
+            List<Employee> employee3 = new List<Employee>();
+            employee3.All(e => (e.Id > 005));
+            Console.WriteLine(employee3);
             Console.ReadLine();
         }
 
