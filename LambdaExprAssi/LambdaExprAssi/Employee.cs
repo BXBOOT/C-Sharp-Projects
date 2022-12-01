@@ -14,7 +14,9 @@ namespace LambdaExprAssi
 
         public Employee (string FirstName, string LastName, int Id)
         {
-            
+            this.FirstName = FirstName;
+            this.LastName = LastName;
+            this.Id = Id;
         }
     }
 }
