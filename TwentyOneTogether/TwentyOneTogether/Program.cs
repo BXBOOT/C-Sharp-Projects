@@ -13,7 +13,6 @@ namespace TwentyOneTogether
         static void Main(string[] args)
         {
            
-
             Console.WriteLine("Welcome to my Hotel. what is your name");
             string playerName = Console.ReadLine();
             Console.WriteLine("How much money did you briing?");

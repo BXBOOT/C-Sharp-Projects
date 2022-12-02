@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\DateAddTime\DateAddTime\bin\Debug\DateAddTime.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\DateAddTime\DateAddTime\bin\Debug\DateAddTime.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\DateAddTime\DateAddTime\bin\Debug\DateAddTime.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\DateAddTime\DateAddTime\obj\Debug\DateAddTime.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\DateAddTime\DateAddTime\obj\Debug\DateAddTime.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\DateAddTime\DateAddTime\obj\Debug\DateAddTime.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\DateAddTime\DateAddTime\obj\Debug\DateAddTime.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\DateAddTime\DateAddTime\obj\Debug\DateAddTime.pdb
