@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace TwentyOneTogether
 {
@@ -16,7 +17,12 @@ namespace TwentyOneTogether
         public void Deal(List<Card> Hand)
         {
             Hand.Add(Deck.Cards.First());
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n");
+            string card = string.Format(Deck.Cards.First().ToString() + "\n");
+            Console.WriteLine(card);
+            using (StreamWriter File = new StreamWriter(@"C:\Users\Michael\Desktop\Logs\log.txt", true))
+            {
+                File.WriteLine(card);
+            }
             Deck.Cards.RemoveAt(0);
         }
     }

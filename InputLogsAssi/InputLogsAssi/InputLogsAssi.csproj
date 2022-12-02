@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82EE2316-5778-46A3-823C-D356A75A8960}</ProjectGuid>
+    <ProjectGuid>{883F9277-7183-4152-92DC-89E560F675C1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TwentyOneTogether</RootNamespace>
-    <AssemblyName>TwentyOneTogether</AssemblyName>
+    <RootNamespace>InputLogsAssi</RootNamespace>
+    <AssemblyName>InputLogsAssi</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="Dealer.cs" />
-    <Compile Include="Deck.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwentyOneDealer.cs" />
-    <Compile Include="TwentyOneGame.cs" />
-    <Compile Include="TwentyOneRules.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

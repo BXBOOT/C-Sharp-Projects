@@ -1,3 +1,8 @@
 C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\TwentyOneTogether\TwentyOneTogether\obj\Debug\TwentyOneTogether.csproj.AssemblyReference.cache
 C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\TwentyOneTogether\TwentyOneTogether\obj\Debug\TwentyOneTogether.csproj.SuggestedBindingRedirects.cache
 C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\TwentyOneTogether\TwentyOneTogether\obj\Debug\TwentyOneTogether.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\TwentyOneTogether\TwentyOneTogether\bin\Debug\TwentyOneTogether.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\TwentyOneTogether\TwentyOneTogether\bin\Debug\TwentyOneTogether.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\TwentyOneTogether\TwentyOneTogether\bin\Debug\TwentyOneTogether.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\TwentyOneTogether\TwentyOneTogether\obj\Debug\TwentyOneTogether.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\TwentyOneTogether\TwentyOneTogether\obj\Debug\TwentyOneTogether.pdb

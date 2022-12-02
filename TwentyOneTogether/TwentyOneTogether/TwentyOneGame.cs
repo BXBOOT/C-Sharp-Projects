@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOneTogether
 {
-    public class TwentyOneGame : Game, IWalkAway
+    public class TwentyOneGame : Game
 
     {
         public TwentyOneDealer Dealer { get; set; }

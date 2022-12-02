@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\InputLogsAssi\InputLogsAssi\bin\Debug\InputLogsAssi.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\InputLogsAssi\InputLogsAssi\bin\Debug\InputLogsAssi.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\InputLogsAssi\InputLogsAssi\bin\Debug\InputLogsAssi.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\InputLogsAssi\InputLogsAssi\obj\Debug\InputLogsAssi.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\InputLogsAssi\InputLogsAssi\obj\Debug\InputLogsAssi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\InputLogsAssi\InputLogsAssi\obj\Debug\InputLogsAssi.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\InputLogsAssi\InputLogsAssi\obj\Debug\InputLogsAssi.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\InputLogsAssi\InputLogsAssi\obj\Debug\InputLogsAssi.pdb

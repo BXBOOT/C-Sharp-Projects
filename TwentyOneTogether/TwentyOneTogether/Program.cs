@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Runtime.Serialization.Formatters;
 
 namespace TwentyOneTogether
 {
@@ -10,11 +12,13 @@ namespace TwentyOneTogether
     {
         static void Main(string[] args)
         {
+           
+
             Console.WriteLine("Welcome to my Hotel. what is your name");
             string playerName = Console.ReadLine();
             Console.WriteLine("How much money did you briing?");
             int bank = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Hello, {0}. would you like to jin a game of 21 right now?", playerName);
+            Console.WriteLine("Hello, {0}. would you like to join a game of 21 right now?", playerName);
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
