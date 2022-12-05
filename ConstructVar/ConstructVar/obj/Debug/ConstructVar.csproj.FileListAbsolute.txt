@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConstructVar\ConstructVar\bin\Debug\ConstructVar.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConstructVar\ConstructVar\bin\Debug\ConstructVar.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConstructVar\ConstructVar\bin\Debug\ConstructVar.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConstructVar\ConstructVar\obj\Debug\ConstructVar.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConstructVar\ConstructVar\obj\Debug\ConstructVar.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConstructVar\ConstructVar\obj\Debug\ConstructVar.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConstructVar\ConstructVar\obj\Debug\ConstructVar.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ConstructVar\ConstructVar\obj\Debug\ConstructVar.pdb
