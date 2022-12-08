@@ -68,7 +68,7 @@ namespace CarInsurance.Controllers
                 insuree.Quote += 50m;
             }
 
-            if (age > 26)
+            if (age >= 26)
             {
                 insuree.Quote += 25m;
             }
@@ -85,9 +85,9 @@ namespace CarInsurance.Controllers
                 insuree.Quote += 25m;
             }
 
-            if (insuree.CarModel == "911 Carrera")//this is very limited as a text option. must be typed specifically.
+            if (insuree.CarModel == "911 Carrera" && insuree.CarMake == "Porsche")//this is very limited as a text option. must be typed specifically.
             {
-                insuree.Quote += 25m;
+                insuree.Quote += 50m;
             }
 
             int SpeedingTickets = 0;
