@@ -19,7 +19,7 @@ namespace ConstructVar
             Console.WriteLine(codeCamp101);//prints the const to console
             Console.ReadLine();
 
-            for (var x = 5; x < 10; x++)//the variable will be determined as int by c#
+            for (var x = 5; x < 10; x++)//the variable will be determined as int by c#.
             {
                 Console.WriteLine(x);//Console will write until number reaches 10
                 Console.ReadLine();
