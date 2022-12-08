@@ -58,6 +58,8 @@ namespace CarInsurance.Controllers
             //Calculate age to adjust quote price
             var age = DateTime.Now.Year - insuree.DateOfBirth.Year;
 
+            insuree.Quote = insuree.Quote + insuree.SpeedingTickets * 10m;
+
             if (age <= 18)
             {
                 insuree.Quote += 100m;
@@ -88,12 +90,6 @@ namespace CarInsurance.Controllers
             if (insuree.CarModel == "911 Carrera" && insuree.CarMake == "Porsche")//this is very limited as a text option. must be typed specifically.
             {
                 insuree.Quote += 50m;
-            }
-
-            int SpeedingTickets = 0;
-            if (insuree.SpeedingTickets >= 1)
-            {
-                insuree.Quote = insuree.Quote + SpeedingTickets * 10m;
             }
 
             if (insuree.DUI == true)
