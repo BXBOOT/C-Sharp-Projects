@@ -58,12 +58,12 @@ namespace CarInsurance.Controllers
             //Calculate age to adjust quote price
             var age = DateTime.Now.Year - insuree.DateOfBirth.Year;
 
-            if (age < 18)
+            if (age <= 18)
             {
                 insuree.Quote += 100m;
             }
 
-            if (age > 19 || age < 25)
+            if (age >= 19 || age <= 25)
             {
                 insuree.Quote += 50m;
             }
@@ -80,9 +80,14 @@ namespace CarInsurance.Controllers
             }
 
             //Check Car make and model
-            if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")//this is very limited as a text option. must be typed specifically.
+            if (insuree.CarMake == "Porsche")//this is very limited as a text option. must be typed specifically. drop downs wuld work better IMO
             {
-                insuree.Quote += 50m;
+                insuree.Quote += 25m;
+            }
+
+            if (insuree.CarModel == "911 Carrera")//this is very limited as a text option. must be typed specifically.
+            {
+                insuree.Quote += 25m;
             }
 
             int SpeedingTickets = 0;
@@ -91,12 +96,12 @@ namespace CarInsurance.Controllers
                 insuree.Quote = insuree.Quote + SpeedingTickets * 10m;
             }
 
-            if (!insuree.DUI == true)
+            if (insuree.DUI == true)
             {
                 insuree.Quote = insuree.Quote * 0.25M + insuree.Quote;
             }
 
-            if (!insuree.CoverageType == true)
+            if (insuree.CoverageType == true)
             {
                 insuree.Quote = insuree.Quote * 0.5M + insuree.Quote;
             }

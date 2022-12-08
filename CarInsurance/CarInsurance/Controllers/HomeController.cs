@@ -10,7 +10,7 @@ namespace CarInsurance.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("~/Views/Insuree/Create.cshtml");
         }
 
         public ActionResult About()
