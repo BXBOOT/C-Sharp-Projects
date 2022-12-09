@@ -1,0 +1,7 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ServeDateTime\ServeDateTime\obj\Release\net6.0\PubTmp\Out\ServeDateTime.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ServeDateTime\ServeDateTime\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ServeDateTime\ServeDateTime\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ServeDateTime\ServeDateTime\obj\Release\net6.0\PubTmp\Out\ServeDateTime.dll
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ServeDateTime\ServeDateTime\obj\Release\net6.0\PubTmp\Out\ServeDateTime.deps.json
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ServeDateTime\ServeDateTime\obj\Release\net6.0\PubTmp\Out\ServeDateTime.runtimeconfig.json
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\ServeDateTime\ServeDateTime\obj\Release\net6.0\PubTmp\Out\ServeDateTime.pdb
