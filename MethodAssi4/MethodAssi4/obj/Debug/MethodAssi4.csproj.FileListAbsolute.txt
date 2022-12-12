@@ -1,0 +1,8 @@
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssi4\MethodAssi4\bin\Debug\MethodAssi4.exe.config
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssi4\MethodAssi4\bin\Debug\MethodAssi4.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssi4\MethodAssi4\bin\Debug\MethodAssi4.pdb
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssi4\MethodAssi4\obj\Debug\MethodAssi4.csproj.AssemblyReference.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssi4\MethodAssi4\obj\Debug\MethodAssi4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssi4\MethodAssi4\obj\Debug\MethodAssi4.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssi4\MethodAssi4\obj\Debug\MethodAssi4.exe
+C:\Users\Michael\Desktop\Personal\Project\C-Sharp-Projects\MethodAssi4\MethodAssi4\obj\Debug\MethodAssi4.pdb
